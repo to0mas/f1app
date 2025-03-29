@@ -39,7 +39,7 @@
     ;
     background: linear-gradient(135deg, #E10600, #e45752);
     padding: 10px 12px;
-    color: white ;
+    color: red ;
     border-radius: 5px 15px;
     text-transform: uppercase;
     transition: .2s all ease-in-out;
