@@ -3,6 +3,7 @@ import './Home.css'
 import { BiColor, BiFontColor, BiFontSize } from 'react-icons/bi'
 import { SiJordan } from 'react-icons/si'
 import backg from '../../images/japan.jpg'
+import JapanFlag from '../../images/japan-flag.avif'
 
 function Home() {
   return (
@@ -10,9 +11,30 @@ function Home() {
      
 <div className='hero'>
 
-  <h1 className='heading'>NEXT STOP</h1>
-  <h2 className='h2-heading'>Japan</h2>
-<div className='TABLE'></div>
+<div className='hero-img'>
+  <img src={JapanFlag}></img>
+</div>
+
+<div className='hero-country-title'>
+  <h3>Japan</h3>
+</div>
+
+<div className='hero-heading'>
+  <h1>NEXT STOP AT</h1>
+</div>
+
+<div className='hero-country-title'>
+  <h3>04 Apr 2025 - 06 Apr 2025
+  </h3>
+</div>
+
+<div className='hero-btn'>
+  <button>See more</button>
+</div>
+
+
+
+
 </div>
 
     </div>

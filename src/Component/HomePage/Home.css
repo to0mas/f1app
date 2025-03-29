@@ -9,11 +9,41 @@
     align-items: center;
     flex-direction: column;
     color: white;
+    padding: 0;
+    margin: 0;
 }
-.heading{
-    font-size: 100px;
+.hero-img img{
+    border-radius: 5px;
+    width: 100px;
+    margin: -10px;
 }
-.h2-heading{
-    font-size: 50px;
-   text-align: right;
+.hero-country-title{
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    font-size: 30px;
+    
+   
+}
+.hero-heading h1{
+    font-size: 120px;
+    margin: -20px;
+}
+.hero-btn button{
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    border: none
+    ;
+    outline: none;
+    cursor: pointer
+    ;
+    background: linear-gradient(135deg, #E10600, #e45752);
+    padding: 10px 12px;
+    color: white ;
+    border-radius: 5px 15px;
+    text-transform: uppercase;
+    transition: .2s all ease-in-out;
+}
+.hero-btn button:hover{
+    transform: scale(1.1);
 }
